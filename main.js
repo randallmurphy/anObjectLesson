@@ -70,6 +70,7 @@ console.log(murph);
 // Part 3 - setting key-value pairs in-line.
 // Now make a new object, but this time we'll pre-populate it, not set it in any lines below it. In other words, the properties should be set the same way I initially set the `myPersevereCodeObj` on line 1. It can be called whatever you want and can have whatever properties you want, as long as they include at least one string value, boolean value, number value, and array of something. The important thing here is: this should all be done within the curly brackets of the object, not below the place where the object is declared.
 const home = {
+  "first time homeowner" : true,
   door:1,
   window:8,
   address:"4163 willowlake blvd memphis tn 38118",
@@ -80,3 +81,10 @@ console.log(home)
 
 
 // As a stretch goal, go back pre-populate the object with at least one property using a key name that CAN'T be a variable name. That would be anything with a space in it, or a dash, or starting with a number.
+
+// nonos 
+// const obj = {
+//   222: 'of',
+//   r murphy: false,
+//   -m
+// }
